@@ -31,7 +31,7 @@ let evaluate = function (result, essai) {
 
 let gameOver = function () {
     if (gagne) {
-        document.querySelector(".js-manipulation").innerHTML += "<p>Vous avez déjà trouvé la bonne réponse </p>";
+        document.querySelector(".js-manipulation").innerHTML += "<p>Vous avez déjà trouvé la bonne réponse... Refresh !</p>";
     }
     else {
         document.querySelector(".js-manipulation").innerHTML +=
